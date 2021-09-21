@@ -6,7 +6,7 @@ Two options to inject a banner warning users to update their browser.
 
 ## Option 1, pure HTML + CSS
 
-Copy and paste the code from `snippet.html` just under your opening `<body>`tag.
+Copy and paste the code from `snippet.html` [(https://raw.githubusercontent.com/mrjasongorman/ie-banner/main/snippet.html)](https://raw.githubusercontent.com/mrjasongorman/ie-banner/main/snippet.html) just under your opening `<body>`tag.
 
 ## Option 2, JavaScript
 
