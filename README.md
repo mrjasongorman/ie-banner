@@ -13,5 +13,5 @@ Copy and paste the code from `snippet.html` just under your opening `<body>`tag.
 Reference the `inject-ie-banner.js` code in your site
 
 ```
-<script src="inject-ie-banner.js"></script>
+<script src="https://raw.githubusercontent.com/mrjasongorman/ie-banner/main/inject-ie-banner.js"></script>
 ```
