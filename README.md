@@ -6,7 +6,7 @@ Two options to inject a banner warning users to update their browser.
 
 ## Option 1, pure HTML + CSS
 
-Copy and paste the code from `html-snippet.html` at the top of the body.
+Copy and paste the code from `snippet.html` just under your opening `<body>`tag.
 
 ## Option 2, JavaScript
 
