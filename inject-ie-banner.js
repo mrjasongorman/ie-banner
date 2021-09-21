@@ -6,7 +6,7 @@
   ieBannerTag.innerHTML = ieBannerHtml;
   
   var styleTag = document.createElement("style");
-  styleTag.innerHTML = "#ie-browser-update-banner{display:block;position:relative;background-color:black;color:white;line-height:28px;padding:15px;font-size:20px;font-family:arial;z-index:999999;}#ie-browser-update-banner a{font-weight:700;color:white;}@media screen and (-ms-high-contrast: none){#ie-browser-update-banner{display:block;}}";
+  styleTag.innerHTML = "#ie-browser-update-banner{display:none;position:relative;background-color:black;color:white;line-height:28px;padding:15px;font-size:20px;font-family:arial;z-index:999999;}#ie-browser-update-banner a{font-weight:700;color:white;}@media screen and (-ms-high-contrast: none){#ie-browser-update-banner{display:block;}}";
   
   document.body.insertBefore(styleTag , document.body.firstChild);
   if(document.getElementById('ie-browser-update-banner') === null) {
