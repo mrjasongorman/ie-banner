@@ -9,10 +9,14 @@ class ElementHandler {
 const rewriter = new HTMLRewriter().on('body', new ElementHandler());
 
 async function handleRequest(req) {
-  const res = await fetch(req);
-  return rewriter.transform(res);
+  const userAgent = req.headers.get("User-Agent") || "";
+  if(userAgent.includes('Trident')) {
+    const res = await fetch(req);
+    return rewriter.transform(res);
+  }
+  return fetch(req);
 }
  
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
-});
+})
